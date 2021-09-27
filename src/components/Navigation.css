@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Speeday;
+    src: url(../assets/fonts/Speeday-Regular-FFP.ttf);
+}
+
+#nav-title{
+    font-family: Speeday;
+    text-transform: capitalize;
+}
