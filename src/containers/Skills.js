@@ -29,7 +29,7 @@ const Skills = () => {
                             skillsSection.softwareSkills.map((skill) => {
                                 return <Fragment key={skill.skillName}>
                             <div className="icon icon-lg icon-shape shadow rounded-circle mb-5"  id={skill.skillName}>
-                                <span className="iconify" data-icon={skill.fontAwesomeClassname} data-inline="false"></span>
+                                <span className="iconify" data-inline="false">{skill.fontAwesomeClassname}</span>
                             </div>
                             <UncontrolledTooltip
                                 delay={0}

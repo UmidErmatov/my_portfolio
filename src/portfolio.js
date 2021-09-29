@@ -1,5 +1,3 @@
-import emoji from "react-easy-emoji";
-
 import CV from './assets/CV.pdf'
 import MyDiploma from './assets/My_diplom.pdf'
 import codemyLogo from './assets/img/codemy.jpg'
@@ -29,15 +27,15 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"CREATIVE FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
 	skills: [
-		emoji(
+		(
 			"⚡ Develop highly interactive Front end / User Interfaces for your web applications"
 		),
-		emoji(
+		(
 			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
 		),
-		emoji(
+		(
 			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
 		),
 	],
@@ -45,19 +43,19 @@ export const skillsSection = {
 	softwareSkills: [
 		{
 			skillName: "html-5",
-			fontAwesomeClassname: "vscode-icons:file-type-html",
+			fontAwesomeClassname: <i class="fa fa-html5"></i>,
 		},
 		{
 			skillName: "css3",
-			fontAwesomeClassname: "vscode-icons:file-type-css",
+			fontAwesomeClassname: <i class="fa fa-css3"></i>,
 		},
 		{
 			skillName: "JavaScript",
-			fontAwesomeClassname: "logos:javascript",
+			fontAwesomeClassname: <i class="fa fa-js"></i>,
 		},
 		{
 			skillName: "reactjs",
-			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+			fontAwesomeClassname: <i class="fa fa-react"></i>,
 		},
 		{
 			skillName: "nodejs",
